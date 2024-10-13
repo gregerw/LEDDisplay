@@ -1,0 +1,5 @@
+To send a message on your display, just send a UDP message with the following structure on the IP of your display with a UDP port of 1234.
+
+1. Byte / Integer / Represents the color of your display. (0) for white; (1) for red; (2) for green and (3) for blue
+2. Byte / Integer / Represents the brightness of your display. (1) for low brightness and (9) for high brightness)
+3. Byte...max 253 Byte. UTF8 char array
